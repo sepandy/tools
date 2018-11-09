@@ -12,6 +12,16 @@
 		5C4FD10A218864D800E8DD88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4FD108218864D800E8DD88 /* Main.storyboard */; };
 		5C4FD10C218864D900E8DD88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4FD10B218864D900E8DD88 /* Assets.xcassets */; };
 		5C4FD10F218864D900E8DD88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4FD10D218864D900E8DD88 /* LaunchScreen.storyboard */; };
+		5C4FD11C2188652500E8DD88 /* PlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FD11A2188652500E8DD88 /* PlaceHolderTextView.swift */; };
+		5C4FD11D2188652500E8DD88 /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FD11B2188652500E8DD88 /* UnderlinedTextField.swift */; };
+		5C4FD11F2188654500E8DD88 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FD11E2188654500E8DD88 /* Utilities.swift */; };
+		5C4FD122218865FF00E8DD88 /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FD120218865FF00E8DD88 /* APIRequests.swift */; };
+		5C4FD12A2188662100E8DD88 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FD1242188662100E8DD88 /* UIImage+Gif.swift */; };
+		5C4FD12B2188662100E8DD88 /* UIViewControllerExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FD1252188662100E8DD88 /* UIViewControllerExtentions.swift */; };
+		5C4FD12C2188662100E8DD88 /* UIButtonExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FD1262188662100E8DD88 /* UIButtonExtenstion.swift */; };
+		5C4FD12D2188662100E8DD88 /* UILabelExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FD1272188662100E8DD88 /* UILabelExtention.swift */; };
+		5C4FD12E2188662100E8DD88 /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FD1282188662100E8DD88 /* UITextFieldExtensions.swift */; };
+		5C4FD12F2188662100E8DD88 /* UIColor+RainbowCrayons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FD1292188662100E8DD88 /* UIColor+RainbowCrayons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		5C4FD10B218864D900E8DD88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C4FD10E218864D900E8DD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C4FD110218864D900E8DD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4FD11A2188652500E8DD88 /* PlaceHolderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceHolderTextView.swift; sourceTree = "<group>"; };
+		5C4FD11B2188652500E8DD88 /* UnderlinedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlinedTextField.swift; sourceTree = "<group>"; };
+		5C4FD11E2188654500E8DD88 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5C4FD120218865FF00E8DD88 /* APIRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		5C4FD1242188662100E8DD88 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		5C4FD1252188662100E8DD88 /* UIViewControllerExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtentions.swift; sourceTree = "<group>"; };
+		5C4FD1262188662100E8DD88 /* UIButtonExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtenstion.swift; sourceTree = "<group>"; };
+		5C4FD1272188662100E8DD88 /* UILabelExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtention.swift; sourceTree = "<group>"; };
+		5C4FD1282188662100E8DD88 /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		5C4FD1292188662100E8DD88 /* UIColor+RainbowCrayons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RainbowCrayons.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,9 @@
 		5C4FD103218864D800E8DD88 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				5C4FD119218864FD00E8DD88 /* View */,
+				5C4FD118218864F700E8DD88 /* Model */,
+				5C4FD116218864E600E8DD88 /* Extentions */,
 				5C4FD104218864D800E8DD88 /* AppDelegate.swift */,
 				5C4FD106218864D800E8DD88 /* ViewController.swift */,
 				5C4FD108218864D800E8DD88 /* Main.storyboard */,
@@ -62,6 +85,37 @@
 				5C4FD110218864D900E8DD88 /* Info.plist */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		5C4FD116218864E600E8DD88 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				5C4FD1262188662100E8DD88 /* UIButtonExtenstion.swift */,
+				5C4FD1292188662100E8DD88 /* UIColor+RainbowCrayons.swift */,
+				5C4FD1242188662100E8DD88 /* UIImage+Gif.swift */,
+				5C4FD1272188662100E8DD88 /* UILabelExtention.swift */,
+				5C4FD1282188662100E8DD88 /* UITextFieldExtensions.swift */,
+				5C4FD1252188662100E8DD88 /* UIViewControllerExtentions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		5C4FD118218864F700E8DD88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C4FD120218865FF00E8DD88 /* APIRequests.swift */,
+				5C4FD11E2188654500E8DD88 /* Utilities.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C4FD119218864FD00E8DD88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C4FD11A2188652500E8DD88 /* PlaceHolderTextView.swift */,
+				5C4FD11B2188652500E8DD88 /* UnderlinedTextField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +190,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C4FD107218864D800E8DD88 /* ViewController.swift in Sources */,
+				5C4FD12D2188662100E8DD88 /* UILabelExtention.swift in Sources */,
+				5C4FD11C2188652500E8DD88 /* PlaceHolderTextView.swift in Sources */,
+				5C4FD12E2188662100E8DD88 /* UITextFieldExtensions.swift in Sources */,
+				5C4FD12B2188662100E8DD88 /* UIViewControllerExtentions.swift in Sources */,
+				5C4FD12A2188662100E8DD88 /* UIImage+Gif.swift in Sources */,
 				5C4FD105218864D800E8DD88 /* AppDelegate.swift in Sources */,
+				5C4FD11F2188654500E8DD88 /* Utilities.swift in Sources */,
+				5C4FD12F2188662100E8DD88 /* UIColor+RainbowCrayons.swift in Sources */,
+				5C4FD12C2188662100E8DD88 /* UIButtonExtenstion.swift in Sources */,
+				5C4FD122218865FF00E8DD88 /* APIRequests.swift in Sources */,
+				5C4FD11D2188652500E8DD88 /* UnderlinedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
